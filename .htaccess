@@ -1,0 +1,55 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^login$ login-form.php [L]
+RewriteRule ^login-failed$ login-form.php?alert=1 [L]
+RewriteRule ^logout$ login-form.php?alert=2 [L]
+RewriteRule ^login-error$ login-form.php?alert=3 [L]
+
+RewriteRule ^beranda$ main.php?module=beranda [L]
+
+RewriteRule ^pencarian$ main.php?module=pencarian [L]
+RewriteRule ^pencarian-detail-(.*)$ main.php?module=form_pencarian&id=$1 [L]
+
+RewriteRule ^surat-keputusan$ main.php?module=surat_keputusan [L]
+RewriteRule ^surat-keputusan-add$ main.php?module=form_surat_keputusan&form=add [L]
+RewriteRule ^surat-keputusan-update-(.*)$ main.php?module=form_surat_keputusan&form=edit&id=$1 [L]
+RewriteRule ^surat-keputusan-view-(.*)$ main.php?module=form_surat_keputusan&form=view&id=$1 [L]
+RewriteRule ^surat-keputusan-delete-(.*)$ modules/surat-keputusan/proses.php?act=delete&id=$1 [L]
+RewriteRule ^surat-keputusan-success-add$ main.php?module=surat_keputusan&alert=1 [L]
+RewriteRule ^surat-keputusan-success-update$ main.php?module=surat_keputusan&alert=2 [L]
+RewriteRule ^surat-keputusan-success-delete$ main.php?module=surat_keputusan&alert=3 [L]
+RewriteRule ^surat-keputusan-error1$ main.php?module=surat_keputusan&alert=4 [L]
+RewriteRule ^surat-keputusan-error2$ main.php?module=surat_keputusan&alert=5 [L]
+RewriteRule ^surat-keputusan-error3$ main.php?module=surat_keputusan&alert=6 [L]
+RewriteRule ^surat-keputusan-export-pdf$ modules/surat-keputusan/pdf.php [L]
+RewriteRule ^surat-keputusan-export-excel$ modules/surat-keputusan/excel.php [L]
+
+RewriteRule ^user$ main.php?module=user [L]
+RewriteRule ^user-add$ main.php?module=form_user&form=add [L]
+RewriteRule ^user-update-(.*)$ main.php?module=form_user&form=edit&id=$1 [L]
+RewriteRule ^user-delete-(.*)$ modules/user/proses.php?act=delete&id=$1 [L]
+RewriteRule ^user-success-add$ main.php?module=user&alert=1 [L]
+RewriteRule ^user-success-update$ main.php?module=user&alert=2 [L]
+RewriteRule ^user-success-delete$ main.php?module=user&alert=3 [L]
+RewriteRule ^user-error1-(.*)$ main.php?module=user&id=$1&alert=4 [L]
+RewriteRule ^user-error2-(.*)$ main.php?module=user&id=$1&alert=5 [L]
+
+RewriteRule ^backup-database$ main.php?module=backup [L]
+RewriteRule ^backup-database-proses$ modules/backup-database/proses.php?act=backup [L]
+RewriteRule ^backup-database-success$ main.php?module=backup&alert=1 [L]
+
+RewriteRule ^tentang$ main.php?module=tentang [L]
+
+RewriteRule ^petunjuk$ main.php?module=petunjuk [L]
+
+RewriteRule ^password$ main.php?module=password [L]
+RewriteRule ^password-error1$ main.php?module=password&alert=1 [L]
+RewriteRule ^password-error2$ main.php?module=password&alert=2 [L]
+RewriteRule ^password-success$ main.php?module=password&alert=3 [L]
+
+ErrorDocument 404 http://localhost/iStudio/PHP-Native-MySQLi/Sistem-Informasi-Arsip-Digital-Surat-Keputusan/error-404.html
+ErrorDocument 403 http://localhost/iStudio/PHP-Native-MySQLi/Sistem-Informasi-Arsip-Digital-Surat-Keputusan/error-403.html
+
+Options All -Indexes
+</IfModule>
