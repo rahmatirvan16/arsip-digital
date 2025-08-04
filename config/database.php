@@ -2,8 +2,8 @@
 // deklarasi parameter koneksi database
 $server   = "localhost";
 $username = "root";
-$password = "root";
-$database = "i_arsip_sk";
+$password = "";
+$database = "i_arsip";
 
 // koneksi database
 $mysqli = new mysqli($server, $username, $password, $database);
