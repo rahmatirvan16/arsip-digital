@@ -29,7 +29,7 @@ if ($_SESSION['hak_akses']=='Admin') {
     // jika tidak, menu surat keputusan tidak aktif
     else {  ?>
         <li class=" nav-item">
-            <a href="surat-keputusan"><i class="icon-file-text2"></i><span data-i18n="nav.bootstrap_tables.table_basic" class="menu-title">Surat Keputusan</span></a>
+            <a href="surat-keputusan"><i class="icon-file-text2"></i><span data-i18n="nav.bootstrap_tables.table_basic" class="menu-title">Arsip Digital</span></a>
         </li>
     <?php
     }
