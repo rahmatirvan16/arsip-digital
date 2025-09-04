@@ -120,7 +120,7 @@
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <center>&copy; 2018 - <a href="http://www.indrasatya.com">www.indrasatya.com</a></center>
+                                    <center>&copy; 2025 - <a href="#">UPTD SAMSAT SABANG</a></center>
                                 </div>
                             </div>
                         </div>
