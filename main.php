@@ -176,7 +176,7 @@ session_start();      // memulai session
 
         <footer class="footer footer-static footer-light navbar-border">
             <p class="clearfix text-muted text-sm-center mb-0 px-2">
-                <span class="float-md-left d-xs-block d-md-inline-block">Copyright  &copy; 2018 - <a href="http://www.indrasatya.com" target="_blank" class="text-bold-500 grey darken-2">www.indrasatya.com </a></span>
+                <span class="float-md-left d-xs-block d-md-inline-block">Copyright  &copy; 2025 - <a href="#" target="_blank" class="text-bold-500 grey darken-2">UPTD SAMSAT SABANG </a></span>
                 <span class="float-md-right d-xs-block d-md-inline-block">Versi 1.0</span>
             </p>
         </footer>
