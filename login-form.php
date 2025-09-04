@@ -51,7 +51,7 @@
                                     <div class="card-title text-xs-center">
                                         <div class="p-1">
                                             <img src="assets/images/logo/logo.png" alt="branding logo"> <br><br>
-                                            <h3>Sistem Informasi Arsip Digital <br> Surat Keputusan</h3>
+                                            <h3>Sistem Informasi Arsip Digital</h3>
                                         </div>
                                     </div>
                                     <h6 class="card-subtitle line-on-side text-muted text-xs-center font-small-3"><span>Silahkan Login</span></h6>
