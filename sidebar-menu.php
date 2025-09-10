@@ -22,7 +22,7 @@ if ($_SESSION['hak_akses']=='Admin') {
     // jika menu surat keputusan dipilih, menu surat keputusan aktif
     if ($_GET["module"] == "surat_keputusan" || $_GET["module"] == "form_surat_keputusan") { ?>
         <li class="active nav-item">
-            <a href="surat-keputusan"><i class="icon-file-text2"></i><span data-i18n="nav.bootstrap_tables.table_basic" class="menu-title">Surat Keputusan</span></a>
+            <a href="surat-keputusan"><i class="icon-file-text2"></i><span data-i18n="nav.bootstrap_tables.table_basic" class="menu-title">Arsip Digital</span></a>
         </li>
     <?php
     } 
@@ -127,14 +127,14 @@ elseif ($_SESSION['hak_akses']=='User') {
     // jika menu surat keputusan dipilih, menu surat keputusan aktif
     if ($_GET["module"] == "surat_keputusan" || $_GET["module"] == "form_surat_keputusan") { ?>
         <li class="active nav-item">
-            <a href="surat-keputusan"><i class="icon-file-text2"></i><span data-i18n="nav.bootstrap_tables.table_basic" class="menu-title">Surat Keputusan</span></a>
+            <a href="surat-keputusan"><i class="icon-file-text2"></i><span data-i18n="nav.bootstrap_tables.table_basic" class="menu-title">Arsip Digital</span></a>
         </li>
     <?php
     } 
     // jika tidak, menu surat keputusan tidak aktif
     else {  ?>
         <li class=" nav-item">
-            <a href="surat-keputusan"><i class="icon-file-text2"></i><span data-i18n="nav.bootstrap_tables.table_basic" class="menu-title">Surat Keputusan</span></a>
+            <a href="surat-keputusan"><i class="icon-file-text2"></i><span data-i18n="nav.bootstrap_tables.table_basic" class="menu-title">Arsip Digital</span></a>
         </li>
     <?php
     }

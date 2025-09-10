@@ -24,7 +24,7 @@ if (isset($_POST['export'])) {
 
 	<!-- Buat Table saat di Export Ke Excel -->
 	<center>
-		<h3>DATA ARSIP SURAT KEPUTUSAN <br>
+		<h3>DATA ARSIP DIGITAL <br>
 	    <?php  
         if ($tgl_awal==$tgl_akhir) { ?>
             Tanggal <?php echo tgl_eng_to_ind($tgl1); ?>
@@ -41,9 +41,9 @@ if (isset($_POST['export'])) {
 			<thead>
 				<tr>
 					<td align="center" valign="top" width="50">No.</td>
-					<td align="center" valign="top" width="600">Nama Surat Keputusan</td>
-					<td align="center" valign="top" width="200">Nomor Surat Keputusan</td>
-					<td align="center" valign="top" width="150">Tanggal Penetapan</td>
+					<td align="center" valign="top" width="600">Judul</td>
+					<td align="center" valign="top" width="200">KETERANGAN (GU/SPM)</td>
+					<td align="center" valign="top" width="150">Tanggal</td>
 				</tr>
 			</thead>
 		</h3>
@@ -88,7 +88,7 @@ if (isset($_POST['export'])) {
 	</table>
 
 	<div style="text-align: right">
-	    <h4>Bandarlampung, <?php echo tgl_eng_to_ind("$hari_ini"); ?></h4>
+	    <h4>Sabang, <?php echo tgl_eng_to_ind("$hari_ini"); ?></h4>
 	</div>
 <?php  
 }

@@ -129,7 +129,7 @@ session_start();      // memulai session
             <!-- main menu header-->
             <div class="main-menu-header">
                 <form action="pencarian" method="POST">
-                    <input type="text" name="cari" placeholder="Cari Nomor / Nama SK ..." class="menu-search form-control round" autocomplete="off" />
+                    <input type="text" name="cari" placeholder="Cari Judul / Keterangan (GU/SPM) ..." class="menu-search form-control round" autocomplete="off" />
                 </form>
             </div>
             <!-- / main menu header-->

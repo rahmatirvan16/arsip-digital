@@ -4,14 +4,14 @@
 if ($_GET['form']=='add') { ?>
 	<div class="content-header row">
         <div class="content-header-left col-md-6 col-xs-12 mb-1">
-            <h3 class="content-header-title"><i class="icon-pencil22"></i> Input Arsip Surat Keputusan </h3>
+            <h3 class="content-header-title"><i class="icon-pencil22"></i> Input Arsip Digital </h3>
         </div>
 
         <div class="content-header-right breadcrumbs-right breadcrumbs-top col-md-6 col-xs-12">
             <div class="breadcrumb-wrapper col-xs-12">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="beranda"><i style="margin-right:7px" class="icon-home3"></i> Beranda</a></li>
-                    <li class="breadcrumb-item"><a href="surat-keputusan">Surat Keputusan</a></li>
+                    <li class="breadcrumb-item"><a href="surat-keputusan">Arsip Digital</a></li>
                     <li class="breadcrumb-item active">Tambah</li>
                 </ol>
             </div>
@@ -29,17 +29,17 @@ if ($_GET['form']=='add') { ?>
                                     <div class="form-body">
 
                                         <div class="form-group">
-                                            <label>Nama Surat Keputusan</label>
+                                            <label>Judul</label>
                                             <textarea rows="2" class="form-control" name="nama_sk" autocomplete="off" required></textarea>
                                         </div>
 
                                         <div class="form-group">
-                                            <label>Nomor Surat Keputusan</label>
+                                            <label>Keterangan (GU/SPM)</label>
                                             <input type="text" class="form-control" name="nomor_sk" autocomplete="off" required>
                                         </div>
 
                                         <div class="form-group">
-                                            <label>Tanggal Penetapan</label>
+                                            <label>Tanggal</label>
                                             <input type="text" class="form-control date-picker" data-date-format="dd-mm-yyyy" name="tgl_penetapan" autocomplete="off" required>
                                         </div>
 
@@ -82,14 +82,14 @@ elseif ($_GET['form']=='edit') {
 ?>
 	<div class="content-header row">
         <div class="content-header-left col-md-6 col-xs-12 mb-1">
-            <h3 class="content-header-title"><i class="icon-pencil22"></i> Ubah Data Arsip Surat Keputusan </h3>
+            <h3 class="content-header-title"><i class="icon-pencil22"></i> Ubah Data Arsip Digital </h3>
         </div>
 
         <div class="content-header-right breadcrumbs-right breadcrumbs-top col-md-6 col-xs-12">
             <div class="breadcrumb-wrapper col-xs-12">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="beranda"><i style="margin-right:7px" class="icon-home3"></i> Beranda </a></li>
-                    <li class="breadcrumb-item"><a href="surat-keputusan">Surat Keputusan</a></li>
+                    <li class="breadcrumb-item"><a href="surat-keputusan">Arsip Digital</a></li>
                     <li class="breadcrumb-item active">Ubah</li>
                 </ol>
             </div>
@@ -109,17 +109,17 @@ elseif ($_GET['form']=='edit') {
 										<input type="hidden" name="id" value="<?php echo $data['id_sk']; ?>">
 
                                         <div class="form-group">
-                                            <label>Nama Surat Keputusan</label>
+                                            <label>Judul</label>
                                             <textarea rows="2" class="form-control" name="nama_sk" autocomplete="off" required><?php echo $data['nama_sk']; ?></textarea>
                                         </div>
 
                                         <div class="form-group">
-                                            <label>Nomor Surat Keputusan</label>
+                                            <label>Keterangan (GU/SPM)</label>
                                             <input type="text" class="form-control" name="nomor_sk" autocomplete="off" value="<?php echo $data['nomor_sk']; ?>" required>
                                         </div>
 
                                         <div class="form-group">
-                                            <label>Tanggal Penetapan</label><input type="text" class="form-control date-picker" data-date-format="dd-mm-yyyy" name="tgl_penetapan" autocomplete="off" value="<?php echo $tgl_penetapan; ?>" required>
+                                            <label>Tanggal</label><input type="text" class="form-control date-picker" data-date-format="dd-mm-yyyy" name="tgl_penetapan" autocomplete="off" value="<?php echo $tgl_penetapan; ?>" required>
                                         </div>
 
                                         <div class="form-group">
@@ -164,14 +164,14 @@ elseif ($_GET['form']=='view') {
 ?>
     <div class="content-header row">
         <div class="content-header-left col-md-6 col-xs-12 mb-1">
-            <h3 class="content-header-title"><i class="icon-file-text2"></i> Dokumen Elektronik Surat Keputusan </h3>
+            <h3 class="content-header-title"><i class="icon-file-text2"></i> Dokumen Elektronik Arsip Digital </h3>
         </div>
 
         <div class="content-header-right breadcrumbs-right breadcrumbs-top col-md-6 col-xs-12">
             <div class="breadcrumb-wrapper col-xs-12">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="beranda"><i style="margin-right:7px" class="icon-home3"></i> Beranda </a></li>
-                    <li class="breadcrumb-item"><a href="surat-keputusan">Surat Keputusan</a></li>
+                    <li class="breadcrumb-item"><a href="surat-keputusan">Arsip Digital</a></li>
                     <li class="breadcrumb-item active">View</li>
                 </ol>
             </div>

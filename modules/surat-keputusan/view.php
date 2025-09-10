@@ -1,13 +1,13 @@
     <div class="content-header row">
         <div class="content-header-left col-md-6 col-xs-12 mb-1">
-            <h2 class="content-header-title"><i class="icon-file-text2"></i> Surat Keputusan </h2>
+            <h2 class="content-header-title"><i class="icon-file-text2"></i> Arsip Digital </h2>
         </div>
 
         <div class="content-header-right breadcrumbs-right breadcrumbs-top col-md-6 col-xs-12">
             <div class="breadcrumb-wrapper col-xs-12">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="beranda"><i style="margin-right:7px" class="icon-home3"></i> Beranda</a></li>
-                    <li class="breadcrumb-item active">Surat Keputusan</li>
+                    <li class="breadcrumb-item active">Arsip Digital</li>
                 </ol>
             </div>
         </div>
@@ -26,7 +26,7 @@ elseif ($_GET['alert'] == 1) { ?>
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
-        <strong><i style="margin-right:7px" class="icon-checkmark2"></i>Sukses!</strong> Arsip surat keputusan baru berhasil disimpan.
+        <strong><i style="margin-right:7px" class="icon-checkmark2"></i>Sukses!</strong> Arsip Digital  baru berhasil disimpan.
     </div>
 <?php
 } 
@@ -37,7 +37,7 @@ elseif ($_GET['alert'] == 2) { ?>
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
-        <strong><i style="margin-right:7px" class="icon-checkmark2"></i>Sukses!</strong> Data arsip surat keputusan berhasil diubah.
+        <strong><i style="margin-right:7px" class="icon-checkmark2"></i>Sukses!</strong> Data arsip digital berhasil diubah.
     </div>
 <?php
 }
@@ -48,7 +48,7 @@ elseif ($_GET['alert'] == 3) { ?>
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
-        <strong><i style="margin-right:7px" class="icon-checkmark2"></i>Sukses!</strong> Data arsip surat keputusan berhasil dihapus.
+        <strong><i style="margin-right:7px" class="icon-checkmark2"></i>Sukses!</strong> Data arsip digital berhasil dihapus.
     </div>
 <?php
 } 
@@ -97,7 +97,7 @@ elseif ($_GET['alert'] == 6) { ?>
                             <div class="btn-group">
                                 <button type="button" class="btn btn-warning btn-min-width dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Export</button>
                                 <div class="dropdown-menu">
-                                    <a data-toggle="modal" class="dropdown-item" href="#pdf"><i class="icon-file-pdf mr-1"></i> PDF</a>
+                                    <!-- <a data-toggle="modal" class="dropdown-item" href="#pdf"><i class="icon-file-pdf mr-1"></i> PDF</a> -->
                                     <div class="dropdown-divider"></div>
                                     <a data-toggle="modal" class="dropdown-item" href="#excel"><i class="icon-file-excel mr-1"></i> Excel</a>
                                 </div>
@@ -117,9 +117,9 @@ elseif ($_GET['alert'] == 6) { ?>
                                 <thead>
                                     <tr>
                                         <th>No.</th>
-                                        <th>Nama SK</th>
-                                        <th>Nomor SK</th>
-                                        <th>Ditetapkan</th>
+                                        <th>Judul</th>
+                                        <th>Keterangan (GU/SPM)</th>
+                                        <th>Tanggal</th>
                                         <th>e-Doc</th>
                                         <th></th>
                                     </tr>

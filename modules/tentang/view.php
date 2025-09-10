@@ -20,7 +20,7 @@
                     <div class="card">
                          <div class="card-header">
                             <h6 class="card-title">
-                                Sistem Informasi Arsip Digital Surat Keputusan
+                                Sistem Informasi Arsip Digital
                             </h6>
                             <a class="heading-elements-toggle"><i class="icon-ellipsis font-medium-3"></i></a>
                             <div class="heading-elements">
@@ -32,7 +32,7 @@
                         </div>
                         <div class="card-body collapse in">
                             <div style="text-align:justify" class="card-block">
-                                <p><b>Sistem Informasi Arsip Digital Surat Keputusan</b> adalah aplikasi yang digunakan untuk mengelola penyimpanan arsip Surat Keputusan dalam bentuk dokumen elektronik. Arsip khususnya Surat Keputusan merupakan hal yang tidak dapat dihindari dalam suatu instansi. Dengan adanya Sistem Informasi Arsip Digital Surat Keputusan pada sebuah instansi akan memberikan efisiensi dan keamanan penyimpan arsip surat serta mempermudah pegawai dalam mencari informasi surat keputusan.</p>
+                                <p><b>Sistem Informasi Arsip Digital</b> adalah aplikasi yang digunakan untuk mengelola penyimpanan arsip GU/SPM dalam bentuk dokumen elektronik. Arsip khususnya GU/SPM merupakan hal yang tidak dapat dihindari dalam suatu instansi. Dengan adanya Sistem Informasi Arsip Digital GU/SPM pada sebuah instansi akan memberikan efisiensi dan keamanan penyimpan arsip serta mempermudah pegawai dalam mencari informasi GU/SPM.</p>
                                 <p>Aplikasi ini dibangun menggunakan bahasa pemrograman <b>PHP Versi 7</b> dan database <b>MySQL</b>. Untuk cara mengakses databasenya menggunakan <b>MySQLi Extension</b> dengan konsep pemrograman <b>prosedural</b>. Template aplikasi menggunakan <b>Robust Admin Lite</b> dengan tampilan yang fleksibel dan modern.</p>
                                 <br>
                                 <p><b>Fitur Apilkasi </b></p>
@@ -53,13 +53,13 @@
                                         <td valign="top" width="15px"><b>3.</b></td>
                                         <td valign="top" width="140px"><b>Pencarian Arsip</b></td>
                                         <td valign="top">:</td>
-                                        <td valign="top">Fitur pencarian arsip surat keputusan terletak pada sidebar menu yang dapat digunakan untuk mencari data arsip surat keputusan berdasarkan nomor surat keputusan atau nama surat keputusan.</td>
+                                        <td valign="top">Fitur pencarian arsip GU/SPM terletak pada sidebar menu yang dapat digunakan untuk mencari data arsip GU/SPM berdasarkan judul arsip digital atau keterangan.</td>
                                     </tr>
                                     <tr>
                                         <td valign="top" width="15px"><b>4.</b></td>
-                                        <td valign="top" width="140px"><b>Surat Keputusan</b></td>
+                                        <td valign="top" width="140px"><b>Arsip Digital</b></td>
                                         <td valign="top">:</td>
-                                        <td valign="top">Halaman untuk mengolah data arsip surat keputusan. Pada halaman ini pengguna dapat menginput sekaligus upload dokumen elektronik, mengubah, menghapus, dan mencari data arsip surat keputusan. Pada halaman ini pengguna juga dapat melihat dokumen elektronik arsip yang telah diupload, serta dapat mengexport data arsip surat keputusan dalam bentuk PDF dan Excel.</td>
+                                        <td valign="top">Halaman untuk mengolah data arsip digital. Pada halaman ini pengguna dapat menginput sekaligus upload dokumen elektronik, mengubah, menghapus, dan mencari data arsip digital. Pada halaman ini pengguna juga dapat melihat dokumen elektronik arsip yang telah diupload, serta dapat mengexport data arsip digital dalam bentuk Excel.</td>
                                     </tr>
                                     <tr>
                                         <td valign="top" width="15px"><b>5.</b></td>

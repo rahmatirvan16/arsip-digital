@@ -48,7 +48,7 @@
                                                 <p class="lead mb-0">
                                                     <a href="pencarian-detail-<?php echo $data['id_sk']; ?>"><span class="text-bold-600"><?php echo $data['nomor_sk']; ?></span> - <?php echo $data['nama_sk']; ?></a>
                                                 </p>
-                                                <p style="font-style:italic">Ditetapkan Tanggal <?php echo tgl_eng_to_ind($tgl_penetapan); ?></p>
+                                                <p style="font-style:italic">Tanggal <?php echo tgl_eng_to_ind($tgl_penetapan); ?></p>
                                             </div>
                                         </li>
                                     <?php  

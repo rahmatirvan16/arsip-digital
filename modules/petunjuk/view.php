@@ -19,7 +19,7 @@
                 <div class="col-md-12">
                     <div class="card">
                          <div class="card-header">
-                            Petunjuk Penggunaan Aplikasi Sistem Informasi Arsip Digital Surat Keputusan
+                            Petunjuk Penggunaan Aplikasi Sistem Informasi Arsip Digital
                             <a class="heading-elements-toggle"><i class="icon-ellipsis font-medium-3"></i></a>
                             <div class="heading-elements">
                                 <ul class="list-inline mb-0">
